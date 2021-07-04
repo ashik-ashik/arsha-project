@@ -211,6 +211,10 @@ a {
   font-size: 40px;
 }
 
+#service {
+  background: #F3F5FA;
+}
+
 #service .box {
   -webkit-transition: all 400ms;
   transition: all 400ms;
@@ -237,5 +241,47 @@ a {
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
+}
+
+#portfolio .box {
+  position: relative !important;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+  overflow: hidden;
+}
+
+#portfolio .box img {
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  height: 350px;
+}
+
+@media screen and (max-width: 991px) {
+  #portfolio .box img {
+    height: 250px;
+    width: 100% !important;
+  }
+}
+
+#portfolio .box .overlay {
+  bottom: -100%;
+  left: 50%;
+  position: absolute !important;
+  width: 95%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease-in-out !important;
+  transition: opacity 500ms ease-in-out !important;
+}
+
+#portfolio .box:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#portfolio .box:hover .overlay {
+  bottom: 15px;
+  opacity: 1;
 }
 /*# sourceMappingURL=index.css.map */

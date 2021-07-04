@@ -8,9 +8,23 @@ $(document).ready(function(){
     }else{
       $('#navigation').removeClass('nav-bg');
     }
-    console.log(ofset)
+
   });
 
+
+
+  // filtering
+  // init Isotope
+    var $grid = $('.row').isotope({
+      // options
+    });
+    // filter items on button click
+    $('.filter-btn').on('click', function () {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({
+        filter: filterValue
+      });
+    });
 
 
 

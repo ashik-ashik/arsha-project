@@ -140,6 +140,7 @@
 }
 
 #service {
+  background: #F3F5FA;
   .box {
     transition: all 400ms;
     h4 a{
@@ -161,4 +162,42 @@
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
+}
+
+#portfolio{
+  .box{
+    position: relative !important;
+    transition: all 400ms;
+    overflow: hidden;
+    img{
+      transition: 400ms;
+      height: 350px;
+    }
+    @media screen and (max-width:991px) {
+      img{
+        height: 250px;
+        width: 100% !important;
+      }
+    }
+    .overlay{
+      bottom: -100%;
+      left: 50%;
+      // display: none !important;
+      position: absolute !important;
+      width: 95%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 500ms ease-in-out !important;
+    }
+  }
+  .box:hover{
+    img{
+      transform: scale(1.2);
+    }
+    .overlay{
+      bottom: 15px;
+      // display: block !important;
+      opacity: 1;
+    }
+  }
 }
