@@ -33,7 +33,7 @@ p {
   font-weight: 500;
 }
 
-.fw-md, #navigation #primary-menu .nav-link, #faq #faqAccordion .accordion-header .accordion-button, .vbox-close {
+.fw-md, #navigation #primary-menu .nav-link, #why-us #faqAccordion .accordion-header .accordion-button, .vbox-close {
   font-weight: 600;
 }
 
@@ -179,22 +179,22 @@ a {
           transform: translate(-50%, -50%);
 }
 
-#faq {
+#why-us {
   background: #F3F5FA;
 }
 
-#faq #faqAccordion .accordion-item {
+#why-us #faqAccordion .accordion-item {
   border: 0px solid transparent !important;
   border-radius: 4px;
 }
 
-#faq #faqAccordion .accordion-header .accordion-button {
+#why-us #faqAccordion .accordion-header .accordion-button {
   border: 0px solid transparent !important;
   font-size: 17px;
   background: #fff;
 }
 
-#faq #faqAccordion .accordion-header .accordion-button span {
+#why-us #faqAccordion .accordion-header .accordion-button span {
   font-size: 17px;
   font-weight: 900;
 }
