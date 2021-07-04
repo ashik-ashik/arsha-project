@@ -1,0 +1,45 @@
+// all customizations
+// my custom desing and customize other default design
+
+#navigation{
+  padding: 10px 0;
+  #primary-menu{
+    .nav-link{
+      @extend .fw-md;
+      @extend .f-f-jost;
+      color: #f1f1f1 !important;
+      transition: ease 300ms;
+    }
+    .nav-link:hover{
+      color: #fff !important;
+    }
+  }
+  @media screen and (max-width:991px) {
+    #primary-menu{
+      background: $dblue;
+    }
+  }
+}
+
+// hero or home section
+#home{
+  padding: 200px 0 50px;
+  background: $dblue !important;
+
+  .btn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  img{
+    animation: img-ani 3s infinite alternate;
+    width: 80% !important;
+  }
+  @keyframes img-ani {
+    100%, 0%{
+      transform: translateY(-10px);
+    }
+    50%{
+      transform: translateY(10px);
+    }
+  }
+}

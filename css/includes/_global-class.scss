@@ -1,0 +1,47 @@
+// global class
+
+.nav-bg{
+  background: $nav-bg !important;
+  transition: 400ms ease-in;
+}
+.clr-db{
+  color: $dblue !important;
+}
+.clr-sky{
+  color: $btnclr !important;
+}
+
+// font family
+.f-f-jost{
+  font-family: $jost !important;
+}
+.fw-sm{
+  font-weight: 500;
+}
+.fw-md{
+  font-weight: 600;
+}
+
+// font size
+.fs-14{
+  font-size: $fs-14 !important;
+}
+.fs-15{
+  font-size: $fs-15 !important;
+}
+.fs-16{
+  font-size: $fs-16 !important;
+}
+.fs-20{
+  font-size: $fs-20 !important;
+}
+
+.fs-28{
+  font-size: $fs-28 !important;
+}
+.fs-32{
+  font-size: $fs-32 !important;
+}
+.fs-48{
+  font-size: $fs-48 !important;
+}

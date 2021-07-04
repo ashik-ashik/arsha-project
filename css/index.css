@@ -1,7 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.nav-bg {
+  background: #37517ebb !important;
+  -webkit-transition: 400ms ease-in;
+  transition: 400ms ease-in;
+}
+
+.clr-db {
+  color: #37517E !important;
+}
+
+.clr-sky {
+  color: #47B2E4 !important;
+}
+
+.f-f-jost, #navigation #primary-menu .nav-link {
+  font-family: "Jost", sans-serif !important;
+}
+
+.fw-sm {
+  font-weight: 500;
+}
+
+.fw-md, #navigation #primary-menu .nav-link {
+  font-weight: 600;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-28 {
+  font-size: 28px !important;
+}
+
+.fs-32 {
+  font-size: 32px !important;
+}
+
+.fs-48 {
+  font-size: 48px !important;
+}
+
+#navigation {
+  padding: 10px 0;
+}
+
+#navigation #primary-menu .nav-link {
+  color: #f1f1f1 !important;
+  -webkit-transition: ease 300ms;
+  transition: ease 300ms;
+}
+
+#navigation #primary-menu .nav-link:hover {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 991px) {
+  #navigation #primary-menu {
+    background: #37517E;
+  }
+}
+
+#home {
+  padding: 200px 0 50px;
+  background: #37517E !important;
+}
+
+#home .btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#home img {
+  -webkit-animation: img-ani 3s infinite alternate;
+          animation: img-ani 3s infinite alternate;
+  width: 80% !important;
+}
+
+@-webkit-keyframes img-ani {
+  100%, 0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+@keyframes img-ani {
+  100%, 0% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
 }
 /*# sourceMappingURL=index.css.map */
