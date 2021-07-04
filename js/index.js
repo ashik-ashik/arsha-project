@@ -12,6 +12,10 @@ $(document).ready(function(){
   });
 
 
+
+  // veno box init
+  $('.playVideo').venobox();
+
   // aos initialize
   AOS.init();
 });

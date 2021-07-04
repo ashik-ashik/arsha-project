@@ -43,3 +43,27 @@
     }
   }
 }
+#logos{
+  background: #eee !important;
+  img{
+    width: 80% !important;
+    text-align: center;
+    filter: grayscale(100);
+    transform: scale(.5);
+    transition: all 300ms;
+    cursor: pointer;
+  }
+  img:hover{
+    filter: grayscale(0);
+    transform: scale(.8);
+  }
+}
+
+
+// venobox close button
+.vbox-close{
+  right: 30px;
+  top: 30px;
+  font-size: 40px;
+  @extend .fw-md;
+}
