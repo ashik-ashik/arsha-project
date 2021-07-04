@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 * {
   margin: 0;
@@ -7,7 +8,7 @@
 }
 
 .nav-bg {
-  background: #37517ebb !important;
+  background: #37517ee5 !important;
   -webkit-transition: 400ms ease-in;
   transition: 400ms ease-in;
 }
@@ -22,6 +23,10 @@
 
 .f-f-jost, #navigation #primary-menu .nav-link {
   font-family: "Jost", sans-serif !important;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .fw-sm {
@@ -143,6 +148,35 @@ a {
           filter: grayscale(0);
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
+}
+
+#about h1 {
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#about h1::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 150px;
+  height: .51px;
+  background: #37517E;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#about h1::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 30px;
+  height: 4px;
+  background: #47B2E4;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .vbox-close {

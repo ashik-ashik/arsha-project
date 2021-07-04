@@ -59,6 +59,33 @@
   }
 }
 
+#about{
+  h1{
+    padding-bottom: 10px;
+    position: relative;
+  }
+  h1::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 150px;
+    height: .51px;
+    background: $dblue;
+    transform: translate(-50%, -50%);
+  }
+  h1::after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 30px;
+    height: 4px;
+    background: $btnclr;
+    transform: translate(-50%, -50%);
+  }
+}
+
 
 // venobox close button
 .vbox-close{
