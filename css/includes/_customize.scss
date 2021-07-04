@@ -155,3 +155,10 @@
     }
   }
 }
+
+#call-action{
+  background: $dblue url(../../img/cta-bg.jpg) center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+}

@@ -231,4 +231,11 @@ a {
 #service .box:hover h4 a {
   color: #47B2E4;
 }
+
+#call-action {
+  background: #37517E url(../../img/cta-bg.jpg) center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+}
 /*# sourceMappingURL=index.css.map */
