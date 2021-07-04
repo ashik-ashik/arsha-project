@@ -106,7 +106,8 @@ a {
 }
 
 @-webkit-keyframes img-ani {
-  100%, 0% {
+  100%,
+  0% {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
   }
@@ -117,7 +118,8 @@ a {
 }
 
 @keyframes img-ani {
-  100%, 0% {
+  100%,
+  0% {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
   }
@@ -150,12 +152,12 @@ a {
           transform: scale(0.8);
 }
 
-#about h1 {
+.section-title h1 {
   padding-bottom: 10px;
   position: relative;
 }
 
-#about h1::before {
+.section-title h1::before {
   content: '';
   position: absolute;
   top: 100%;
@@ -167,7 +169,7 @@ a {
           transform: translate(-50%, -50%);
 }
 
-#about h1::after {
+.section-title h1::after {
   content: '';
   position: absolute;
   top: 100%;
@@ -207,5 +209,26 @@ a {
   right: 30px;
   top: 30px;
   font-size: 40px;
+}
+
+#service .box {
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+#service .box h4 a {
+  color: #37517E;
+  font-weight: 700;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+#service .box:hover {
+  -webkit-transform: translateY(-14px);
+          transform: translateY(-14px);
+}
+
+#service .box:hover h4 a {
+  color: #47B2E4;
 }
 /*# sourceMappingURL=index.css.map */

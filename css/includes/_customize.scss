@@ -1,51 +1,61 @@
 // all customizations
 // my custom desing and customize other default design
 
-#navigation{
+#navigation {
   padding: 10px 0;
-  #primary-menu{
-    .nav-link{
+
+  #primary-menu {
+    .nav-link {
       @extend .fw-md;
       @extend .f-f-jost;
       color: #f1f1f1 !important;
       transition: ease 300ms;
     }
-    .nav-link:hover{
+
+    .nav-link:hover {
       color: #fff !important;
     }
   }
+
   @media screen and (max-width:991px) {
-    #primary-menu{
+    #primary-menu {
       background: $dblue;
     }
   }
 }
 
 // hero or home section
-#home{
+#home {
   padding: 200px 0 50px;
   background: $dblue !important;
 
-  .btn{
+  .btn {
     padding-top: 12px;
     padding-bottom: 12px;
   }
-  img{
+
+  img {
     animation: img-ani 3s infinite alternate;
     width: 80% !important;
   }
+
   @keyframes img-ani {
-    100%, 0%{
+
+    100%,
+    0% {
       transform: translateY(-10px);
     }
-    50%{
+
+    50% {
       transform: translateY(10px);
     }
   }
 }
-#logos{
+
+#logos {
   background: #eee !important;
-  img{
+
+  img {
     width: 80% !important;
     text-align: center;
     filter: grayscale(100);
@@ -53,18 +63,20 @@
     transition: all 300ms;
     cursor: pointer;
   }
-  img:hover{
+
+  img:hover {
     filter: grayscale(0);
     transform: scale(.8);
   }
 }
 
-#about{
-  h1{
+.section-title {
+  h1 {
     padding-bottom: 10px;
     position: relative;
   }
-  h1::before{
+
+  h1::before {
     content: '';
     position: absolute;
     top: 100%;
@@ -74,7 +86,8 @@
     background: $dblue;
     transform: translate(-50%, -50%);
   }
-  h1::after{
+
+  h1::after {
     content: '';
     position: absolute;
     top: 100%;
@@ -87,21 +100,23 @@
 }
 
 // faq section
-#why-us{
+#why-us {
   background: #F3F5FA;
 
-  #faqAccordion{
-    .accordion-item{
+  #faqAccordion {
+    .accordion-item {
       border: 0px solid transparent !important;
       border-radius: 4px;
     }
-    .accordion-header .accordion-button{
+
+    .accordion-header .accordion-button {
       border: 0px solid transparent !important;
       font-size: 17px;
       @extend .fw-md;
       background: #fff;
     }
-    .accordion-header .accordion-button span{
+
+    .accordion-header .accordion-button span {
       font-size: 17px;
       font-weight: 900;
     }
@@ -109,17 +124,34 @@
 }
 
 // skill section
-#skills{
-  .progress-bar{
+#skills {
+  .progress-bar {
     background: $dblue;
   }
 }
 
 
 // venobox close button
-.vbox-close{
+.vbox-close {
   right: 30px;
   top: 30px;
   font-size: 40px;
   @extend .fw-md;
+}
+
+#service {
+  .box {
+    transition: all 400ms;
+    h4 a{
+      color: $dblue;
+      font-weight: 700;
+      transition: 300ms;
+    }
+  }
+  .box:hover{
+    transform: translateY(-14px);
+    h4 a{
+      color: $btnclr;
+    }
+  }
 }
