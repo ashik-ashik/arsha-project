@@ -86,6 +86,28 @@
   }
 }
 
+// faq section
+#why-us{
+  background: #F3F5FA;
+
+  #faqAccordion{
+    .accordion-item{
+      border: 0px solid transparent !important;
+      border-radius: 4px;
+    }
+    .accordion-header .accordion-button{
+      border: 0px solid transparent !important;
+      font-size: 17px;
+      @extend .fw-md;
+      background: #fff;
+    }
+    .accordion-header .accordion-button span{
+      font-size: 17px;
+      font-weight: 900;
+    }
+  }
+}
+
 
 // venobox close button
 .vbox-close{
