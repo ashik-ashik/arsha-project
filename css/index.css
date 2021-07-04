@@ -199,6 +199,10 @@ a {
   font-weight: 900;
 }
 
+#skills .progress-bar {
+  background: #37517E;
+}
+
 .vbox-close {
   right: 30px;
   top: 30px;

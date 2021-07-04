@@ -1,0 +1,54 @@
+[33mcommit 9da955bdb17229c66f8625cd356278bf6763be6a[m[33m ([m[1;36mHEAD -> [m[1;32msub-main[m[33m, [m[1;31morigin/sub-main[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Md Ashik Ali <mdashika989@yahoo.com>
+Date:   Sun Jul 4 17:38:58 2021 +0600
+
+    all update
+
+[1mdiff --git a/css/index.css b/css/index.css[m
+[1mindex c5ba3f0..d5d40aa 100644[m
+[1m--- a/css/index.css[m
+[1m+++ b/css/index.css[m
+[36m@@ -33,7 +33,7 @@[m [mp {[m
+   font-weight: 500;[m
+ }[m
+ [m
+[31m-.fw-md, #navigation #primary-menu .nav-link, #faq #faqAccordion .accordion-header .accordion-button, .vbox-close {[m
+[32m+[m[32m.fw-md, #navigation #primary-menu .nav-link, #why-us #faqAccordion .accordion-header .accordion-button, .vbox-close {[m
+   font-weight: 600;[m
+ }[m
+ [m
+[36m@@ -179,22 +179,22 @@[m [ma {[m
+           transform: translate(-50%, -50%);[m
+ }[m
+ [m
+[31m-#faq {[m
+[32m+[m[32m#why-us {[m
+   background: #F3F5FA;[m
+ }[m
+ [m
+[31m-#faq #faqAccordion .accordion-item {[m
+[32m+[m[32m#why-us #faqAccordion .accordion-item {[m
+   border: 0px solid transparent !important;[m
+   border-radius: 4px;[m
+ }[m
+ [m
+[31m-#faq #faqAccordion .accordion-header .accordion-button {[m
+[32m+[m[32m#why-us #faqAccordion .accordion-header .accordion-button {[m
+   border: 0px solid transparent !important;[m
+   font-size: 17px;[m
+   background: #fff;[m
+ }[m
+ [m
+[31m-#faq #faqAccordion .accordion-header .accordion-button span {[m
+[32m+[m[32m#why-us #faqAccordion .accordion-header .accordion-button span {[m
+   font-size: 17px;[m
+   font-weight: 900;[m
+ }[m
+[1mdiff --git a/css/index.css.map b/css/index.css.map[m
+[1mindex f240b02..8dc4b8b 100644[m
+[1m--- a/css/index.css.map[m
+[1m+++ b/css/index.css.map[m
+[36m@@ -1,6 +1,6 @@[m
+ {[m
+     "version": 3,[m
+[31m-    "mappings": "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
