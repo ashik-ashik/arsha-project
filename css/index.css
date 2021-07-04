@@ -233,7 +233,7 @@ a {
 }
 
 #call-action {
-  background: #37517E url(../../img/cta-bg.jpg) center;
+  background: #37517E url(../img/cta-bg.jpg) center;
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
