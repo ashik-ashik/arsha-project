@@ -233,6 +233,33 @@
     }
   }
   .box:hover{
-    transform: translateY(-14px);
+    transform: translateY(-7px);
+  }
+}
+
+
+#pricing{
+  .box{
+    transition: 300ms;
+    [class*='btn-outline']:hover{
+      color: #fff;
+    }
+  }
+  .box.business{
+    position: relative;
+  }
+  .box.business::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #00f, #0089be);
+    top: 0;
+    left: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .box:hover{
+    transform: translateY(-5px);
   }
 }

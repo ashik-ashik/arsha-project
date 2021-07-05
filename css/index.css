@@ -321,7 +321,38 @@ a {
 }
 
 #team .box:hover {
-  -webkit-transform: translateY(-14px);
-          transform: translateY(-14px);
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+#pricing .box {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+#pricing .box [class*='btn-outline']:hover {
+  color: #fff;
+}
+
+#pricing .box.business {
+  position: relative;
+}
+
+#pricing .box.business::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(#00f), to(#0089be));
+  background: linear-gradient(90deg, #00f, #0089be);
+  top: 0;
+  left: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#pricing .box:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 /*# sourceMappingURL=index.css.map */
