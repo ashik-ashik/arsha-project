@@ -374,4 +374,19 @@ a {
   background: #fff !important;
   color: #37517E !important;
 }
+
+#contact .box .bx {
+  font-size: 26px !important;
+  padding: 10px 10px;
+  background: #47b2e41c;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  color: #47B2E4;
+  border-radius: 50%;
+}
+
+#contact .box .d-flex:hover .bx {
+  color: #fff !important;
+  background: #47b2e4;
+}
 /*# sourceMappingURL=index.css.map */

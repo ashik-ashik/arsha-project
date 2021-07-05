@@ -141,45 +141,52 @@
 
 #service {
   background: #F3F5FA;
+
   .box {
     transition: all 400ms;
-    h4 a{
+
+    h4 a {
       color: $dblue;
       font-weight: 700;
       transition: 300ms;
     }
   }
-  .box:hover{
+
+  .box:hover {
     transform: translateY(-14px);
-    h4 a{
+
+    h4 a {
       color: $btnclr;
     }
   }
 }
 
-#call-action{
+#call-action {
   background: $dblue url(../img/cta-bg.jpg) center;
   background-blend-mode: multiply;
   background-size: cover;
   background-attachment: fixed;
 }
 
-#portfolio{
-  .box{
+#portfolio {
+  .box {
     position: relative !important;
     transition: all 400ms;
     overflow: hidden;
-    img{
+
+    img {
       transition: 400ms;
       height: 350px;
     }
+
     @media screen and (max-width:991px) {
-      img{
+      img {
         height: 250px;
         width: 100% !important;
       }
     }
-    .overlay{
+
+    .overlay {
       bottom: -100%;
       left: 50%;
       // display: none !important;
@@ -190,11 +197,13 @@
       transition: opacity 500ms ease-in-out !important;
     }
   }
-  .box:hover{
-    img{
+
+  .box:hover {
+    img {
       transform: scale(1.2);
     }
-    .overlay{
+
+    .overlay {
       bottom: 15px;
       // display: block !important;
       opacity: 1;
@@ -203,21 +212,24 @@
 }
 
 
-#team{
+#team {
   background: #F3F5FA;
 
-  .box{
+  .box {
     transition: 400ms;
-    h3{
+
+    h3 {
       font-size: 20px;
     }
-    .title{
+
+    .title {
       color: #37517E;
       letter-spacing: 3px;
       font-size: 13px;
     }
-    .social-media{
-      a{
+
+    .social-media {
+      a {
         display: inline-block;
         padding: 6px 11px;
         font-size: 18px;
@@ -226,29 +238,34 @@
         background: #88888831;
         transition: ease-in-out 400ms;
       }
-      a:hover{
+
+      a:hover {
         background: $dblue;
         color: #fff !important;
       }
     }
   }
-  .box:hover{
+
+  .box:hover {
     transform: translateY(-7px);
   }
 }
 
 
-#pricing{
-  .box{
+#pricing {
+  .box {
     transition: 300ms;
-    [class*='btn-outline']:hover{
+
+    [class*='btn-outline']:hover {
       color: #fff;
     }
   }
-  .box.business{
+
+  .box.business {
     position: relative;
   }
-  .box.business::before{
+
+  .box.business::before {
     position: absolute;
     content: '';
     width: 100%;
@@ -259,26 +276,47 @@
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
   }
-  .box:hover{
+
+  .box:hover {
     transform: translateY(-5px);
   }
 }
 
-#faq{
+#faq {
   background: #F3F5FA;
 
-  #questions{
-    .accordion-button{
-    background: #fff !important;
-    font-size: $fs-20;
-    color: $btnclr !important;
+  #questions {
+    .accordion-button {
+      background: #fff !important;
+      font-size: $fs-20;
+      color: $btnclr !important;
     }
-    .accordion-button.collapsed:hover{
-    color: $btnclr !important;
+
+    .accordion-button.collapsed:hover {
+      color: $btnclr !important;
     }
-    .accordion-button.collapsed{
-    background: #fff !important;
-    color: $dblue !important;
+
+    .accordion-button.collapsed {
+      background: #fff !important;
+      color: $dblue !important;
     }
+  }
+}
+
+#contact {
+  .box {
+    .bx {
+      font-size: 26px !important;
+      padding: 10px 10px;
+      background: #47b2e41c;
+      transition: 400ms;
+      color: $btnclr;
+      border-radius: 50%;
+    }
+  }
+
+  .box .d-flex:hover .bx {
+    color: #fff !important;
+    background: #47b2e4;
   }
 }
