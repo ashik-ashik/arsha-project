@@ -69,6 +69,10 @@ p {
   font-size: 48px !important;
 }
 
+.fs-13 {
+  font-size: 13px !important;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -402,5 +406,27 @@ a {
   #news-latter .news-box {
     width: 100% !important;
   }
+}
+
+#mobile-s-menu {
+  width: 300px;
+}
+
+#mobile-s-menu a {
+  color: #37517E;
+  font-weight: 600 !important;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  display: inline-block;
+}
+
+#mobile-s-menu a .bx {
+  font-size: 13px;
+}
+
+#mobile-s-menu a:hover {
+  color: #47B2E4;
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
 }
 /*# sourceMappingURL=index.css.map */

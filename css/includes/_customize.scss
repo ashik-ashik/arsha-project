@@ -330,3 +330,20 @@
     }
   }
 }
+
+#mobile-s-menu{
+  width: 300px;
+  a{
+    color: $dblue;
+    font-weight: 600 !important;
+    transition: 400ms;
+    display: inline-block;
+    .bx{
+      font-size: 13px;
+    }
+  }
+  a:hover{
+    color: $btnclr;
+    transform: translateX(5px);
+  }
+}
