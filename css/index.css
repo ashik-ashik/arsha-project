@@ -13,6 +13,10 @@
   transition: 400ms ease-in;
 }
 
+.bg-db {
+  background: #37517E !important;
+}
+
 .clr-db {
   color: #37517E !important;
 }
@@ -388,5 +392,15 @@ a {
 #contact .box .d-flex:hover .bx {
   color: #fff !important;
   background: #47b2e4;
+}
+
+#news-latter {
+  background: #F3F5FA;
+}
+
+@media screen and (max-width: 991px) {
+  #news-latter .news-box {
+    width: 100% !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */

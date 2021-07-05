@@ -320,3 +320,13 @@
     background: #47b2e4;
   }
 }
+
+#news-latter{
+  background: #F3F5FA;
+
+  @media screen and (max-width:991px) {
+    .news-box{
+      width: 100% !important;
+    }
+  }
+}
