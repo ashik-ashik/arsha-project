@@ -201,3 +201,38 @@
     }
   }
 }
+
+
+#team{
+  background: #F3F5FA;
+
+  .box{
+    transition: 400ms;
+    h3{
+      font-size: 20px;
+    }
+    .title{
+      color: #37517E;
+      letter-spacing: 3px;
+      font-size: 13px;
+    }
+    .social-media{
+      a{
+        display: inline-block;
+        padding: 6px 11px;
+        font-size: 18px;
+        border-radius: 50%;
+        color: $dblue;
+        background: #88888831;
+        transition: ease-in-out 400ms;
+      }
+      a:hover{
+        background: $dblue;
+        color: #fff !important;
+      }
+    }
+  }
+  .box:hover{
+    transform: translateY(-14px);
+  }
+}

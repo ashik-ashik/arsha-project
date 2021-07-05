@@ -284,4 +284,44 @@ a {
   bottom: 15px;
   opacity: 1;
 }
+
+#team {
+  background: #F3F5FA;
+}
+
+#team .box {
+  -webkit-transition: 400ms;
+  transition: 400ms;
+}
+
+#team .box h3 {
+  font-size: 20px;
+}
+
+#team .box .title {
+  color: #37517E;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+
+#team .box .social-media a {
+  display: inline-block;
+  padding: 6px 11px;
+  font-size: 18px;
+  border-radius: 50%;
+  color: #37517E;
+  background: #88888831;
+  -webkit-transition: ease-in-out 400ms;
+  transition: ease-in-out 400ms;
+}
+
+#team .box .social-media a:hover {
+  background: #37517E;
+  color: #fff !important;
+}
+
+#team .box:hover {
+  -webkit-transform: translateY(-14px);
+          transform: translateY(-14px);
+}
 /*# sourceMappingURL=index.css.map */
