@@ -263,3 +263,22 @@
     transform: translateY(-5px);
   }
 }
+
+#faq{
+  background: #F3F5FA;
+
+  #questions{
+    .accordion-button{
+    background: #fff !important;
+    font-size: $fs-20;
+    color: $btnclr !important;
+    }
+    .accordion-button.collapsed:hover{
+    color: $btnclr !important;
+    }
+    .accordion-button.collapsed{
+    background: #fff !important;
+    color: $dblue !important;
+    }
+  }
+}

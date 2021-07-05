@@ -355,4 +355,23 @@ a {
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
+
+#faq {
+  background: #F3F5FA;
+}
+
+#faq #questions .accordion-button {
+  background: #fff !important;
+  font-size: 20px;
+  color: #47B2E4 !important;
+}
+
+#faq #questions .accordion-button.collapsed:hover {
+  color: #47B2E4 !important;
+}
+
+#faq #questions .accordion-button.collapsed {
+  background: #fff !important;
+  color: #37517E !important;
+}
 /*# sourceMappingURL=index.css.map */
